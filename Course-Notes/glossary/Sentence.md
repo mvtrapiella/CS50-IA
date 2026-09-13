@@ -1,0 +1,1 @@
+**Sentence**: an assertion about the world in a knowlege representation language.

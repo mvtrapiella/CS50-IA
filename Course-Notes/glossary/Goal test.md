@@ -1,0 +1,1 @@
+**Goal test**: way to determine wether a given [[state]] is a [[goal state]].

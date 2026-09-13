@@ -1,0 +1,1 @@
+**Uninformed search**: search strategy that uses no problem-specific knowledge. For example: [[Breadth-first traversal|BFS]] and [[Depth-first search|DFS]].

@@ -1,0 +1,2 @@
+**Greedy best-first search**: search algorithm that expands the [[node]] that is closest to the goal, as estimated by a heuristic function *h(n)*.
+An example of a heursitic function could be the Manhattan distance (the number of steps from a certain [[state]] to the [[goal state]]).

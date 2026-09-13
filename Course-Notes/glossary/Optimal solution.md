@@ -1,0 +1,1 @@
+**Optimal solution**: a [[solution]] that has the lowest [[path cost]] among all the [[solution|solutions]]. It means that there is no way that we could have done it better in terms of that solution.

@@ -1,0 +1,274 @@
+{
+  "main": {
+    "id": "2058e5ef524b8573",
+    "type": "split",
+    "children": [
+      {
+        "id": "05780939545ac028",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c123c3204e85947a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge"
+            }
+          },
+          {
+            "id": "ddfc9684177db8ec",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Knowledge.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Knowledge"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "6381eff0848b8e5f",
+    "type": "split",
+    "children": [
+      {
+        "id": "880cb45a6c2045d2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "400e7b39866ca4e5",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "26deaf242a219261",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "8439aa393f50eb97",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "e722996ef122d0a7",
+    "type": "split",
+    "children": [
+      {
+        "id": "87358ea2450c9bbb",
+        "type": "tabs",
+        "dimension": 51.49833518312985,
+        "children": [
+          {
+            "id": "aaf5852429799425",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Knowledge.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "65385ed0b2211db4",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "c74c8d1c3b86abe9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "81d6dc3f5bb95dbc",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "f54abe41bacf84da",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          },
+          {
+            "id": "52154b403ae95c90",
+            "type": "leaf",
+            "state": {
+              "type": "glossary-overview",
+              "state": {},
+              "icon": "book-a",
+              "title": "Glossary"
+            }
+          }
+        ],
+        "currentTab": 5
+      },
+      {
+        "id": "6c5d9ee23baa9a47",
+        "type": "tabs",
+        "dimension": 48.50166481687015,
+        "children": [
+          {
+            "id": "d1b44699d90cbe44",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "Vista gráfica"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 379
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "glossary-linker:Glossary overview": false
+    }
+  },
+  "active": "ddfc9684177db8ec",
+  "lastOpenFiles": [
+    "Pasted image 20260914004936.png",
+    "Pasted image 20260914004822.png",
+    "Pasted image 20260914004437.png",
+    "glossary/Pasted image 20260914004108.png",
+    "glossary/Existential Quantification.md",
+    "glossary/Existencial Quantification.md",
+    "glossary/Existencial Quantificator.md",
+    "glossary/Sin título.md",
+    "glossary/Pasted image 20260914003451.png",
+    "glossary/Universal Quantification.md",
+    "glossary/Pasted image 20260914001704.png",
+    "glossary/Inference by resolution.md",
+    "glossary/Inference rules.md",
+    "Knowledge.md",
+    "glossary/Evaluation function.md",
+    "glossary/Conjuctive normal form.md",
+    "glossary/Clause.md",
+    "glossary/Theorem Proving.md",
+    "glossary/Theorem.md",
+    "glossary/Knowledge engineering.md",
+    "glossary/Knowledge e.md",
+    "glossary/Pasted image 20260913183138.png",
+    "glossary/Pasted image 20260913183124.png",
+    "glossary/Model checking.md",
+    "glossary/Inference.md",
+    "glossary/Entailment.md",
+    "glossary/Knowledge base.md",
+    "glossary/Model.md",
+    "glossary/Pasted image 20260913175825.png",
+    "glossary/Pasted image 20260913162921.png",
+    "glossary/Pasted image 20260913162728.png",
+    "glossary/Propositional symbols.md",
+    "glossary/Logical connectives.md",
+    "glossary/Sentence.md",
+    "glossary/Knowledge-based agents.md",
+    "Search.md",
+    "glossary",
+    "Nueva carpeta"
+  ]
+}

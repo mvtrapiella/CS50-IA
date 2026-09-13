@@ -1,0 +1,1 @@
+**Solution**: a sequence of actions that leads from the [[initial state]] to a [[goal state]]. 

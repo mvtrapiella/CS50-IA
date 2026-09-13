@@ -1,0 +1,1 @@
+**Goal state**: the [[state]] we are searching for (solution).

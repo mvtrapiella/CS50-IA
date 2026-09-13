@@ -1,0 +1,1 @@
+**Initial state**: the [[state]] in which the [[agent]] begins.

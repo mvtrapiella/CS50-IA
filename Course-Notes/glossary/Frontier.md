@@ -1,0 +1,1 @@
+**Frontier**: is a data structure that contains all the available options that we could explore next, that we have not yet explored or visited.

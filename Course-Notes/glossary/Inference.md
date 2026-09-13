@@ -1,0 +1,1 @@
+**Inference**: the process of deriving new sentences from old ones.

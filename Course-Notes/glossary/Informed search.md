@@ -1,0 +1,2 @@
+**Informed search**: search strategy that uses problem-specific knowledge to find solutions more efficiently. For example: when we are traversing a maze using a [[Depth-first search|DFS]] we could make the algorithm to calculate the relative distance in an interseccion with the respect to the [[goal state]] and choose that side to be traversed.
+A type will be the [[Greedy best-first search|GBFS]].

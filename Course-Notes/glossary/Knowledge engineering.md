@@ -1,0 +1,1 @@
+**Knowledge engineering**: take a problem and distill it down in knowledge that is representable by a computer, so the computer can solve it.

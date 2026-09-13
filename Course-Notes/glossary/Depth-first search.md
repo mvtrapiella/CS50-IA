@@ -1,0 +1,1 @@
+**Depth-first search**: search algorithm that always expands the deepest [[node]] in the [[frontier]].

@@ -1,0 +1,1 @@
+**Knowledge-based agents**: agents that reason by operating on internal representations of knowledge.

@@ -1,0 +1,1 @@
+**Knowledge base**: a set of sentences in propositional logic known by a [[knowledge-based agents|knowledge-based agent]].

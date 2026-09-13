@@ -1,0 +1,1 @@
+**Evaluation function**: function that estimates the expected utility of the game from a given [[state]].

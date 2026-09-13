@@ -1,0 +1,1 @@
+**Breadth-first traversal**: search algorithm that always expands the shallowest [[node]] in the [[frontier]].
