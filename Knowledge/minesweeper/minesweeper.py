@@ -109,7 +109,6 @@ class Sentence():
             return self.cells
         return set()
 
-
     def known_safes(self):
         """
         Returns the set of all cells in self.cells known to be safe.
@@ -126,7 +125,6 @@ class Sentence():
         if cell in self.cells:
             self.cells.discard(cell)
             self.count -= 1
-
 
     def mark_safe(self, cell):
         """
@@ -180,14 +178,14 @@ class MinesweeperAI():
         neighbours = set()
         new_count = count
 
-        ## From [-1, cell, 1] -> rows
+        # From [-1, cell, 1] -> rows
         for i in range(cell[0] - 1, cell[0] + 2):
-            ## From [-1, cell, 1] -> col
+            # From [-1, cell, 1] -> col
             for j in range(cell[1] - 1, cell[1] + 2):
                 if (i, j) == cell: 
                     continue
 
-                ## Check if the cells are inside the board
+                # Check if the cells are inside the board
                 if 0 <= i < self.height and 0 <= j < self.width:
                     if (i, j) in self.mines:
                         new_count -= 1
@@ -242,7 +240,7 @@ class MinesweeperAI():
         while changed:
             changed_cells = self.update_cells()
 
-            ## Remove empty sentences
+            # Remove empty sentences
             new_knowledge = []
             for s in self.knowledge:
                 if s.cells:
@@ -253,8 +251,6 @@ class MinesweeperAI():
             changed_sentences = self.new_knowledge()
 
             changed = changed_cells or changed_sentences
-
-            
 
     def add_knowledge(self, cell, count):
         """
@@ -275,13 +271,12 @@ class MinesweeperAI():
 
         self.mark_safe(cell)
 
-        ## Check the neighbours and update the count if we know that some of
-        ## cells are mines or not
+        # Check the neighbours and update the count if we know that some of
+        # cells are mines or not
         self.add_sentence_from_cell(cell, count)
 
-        ## Inference of new knowledge
+        # Inference of new knowledge
         self.infer_knowledge()
-        
 
     def make_safe_move(self):
         """
@@ -293,8 +288,8 @@ class MinesweeperAI():
         and self.moves_made, but should not modify any of those values.
         """
 
-        ## We check for the already confirmed safe moves.
-        ## If any of those cells have not been moved to yet, we choose it
+        # We check for the already confirmed safe moves.
+        # If any of those cells have not been moved to yet, we choose it
         for s in self.safes:
             if s not in self.moves_made:
                 return s
@@ -320,4 +315,3 @@ class MinesweeperAI():
             return None
 
         return random.choice(available)
-        
